@@ -7,22 +7,24 @@ const BookingDetails = () => {
 			<h5 className={styles.subHeading}>Hotel Taj - Mumbai</h5>
 			<div className={styles.details}>
 				<table>
-					<tr>
-						<td className={styles.cellTitle}>Total Cost</td>
-						<td className={styles.cellTitle}>$200 for 2 days</td>
-					</tr>
-					<tr>
-						<td className={styles.cellTitle}>Your share</td>
-						<td className={styles.cellTitle}>$100 for 2 days</td>
-					</tr>
-					<tr>
-						<td className={styles.cellTitle}>Jackson’s share</td>
-						<td className={styles.cellTitle}>$100 for 2 days</td>
-					</tr>
-					<tr>
-						<td className={styles.cellTitle}>Transcation Charges</td>
-						<td className={styles.cellTitle}>$1.75</td>
-					</tr>
+					<tbody>
+						<tr>
+							<td className={styles.cellTitle}>Total Cost</td>
+							<td className={styles.cellTitle}>$200 for 2 days</td>
+						</tr>
+						<tr>
+							<td className={styles.cellTitle}>Your share</td>
+							<td className={styles.cellTitle}>$100 for 2 days</td>
+						</tr>
+						<tr>
+							<td className={styles.cellTitle}>Jackson’s share</td>
+							<td className={styles.cellTitle}>$100 for 2 days</td>
+						</tr>
+						<tr>
+							<td className={styles.cellTitle}>Transcation Charges</td>
+							<td className={styles.cellTitle}>$1.75</td>
+						</tr>
+					</tbody>
 				</table>
 			</div>
 			<div className={styles.divider} />

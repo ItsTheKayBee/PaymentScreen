@@ -1,8 +1,11 @@
 .bookingCard {
-  max-width: 400px;
+  width: 100%;
   border: 1px solid #484848;
   border-radius: 10px;
   padding: 28px;
+  @media (min-width: 768px) {
+    max-width: 400px;
+  }
   .heading {
     font-weight: 700;
     font-size: 24px;

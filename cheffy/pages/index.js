@@ -20,7 +20,14 @@ export default () => {
 						<BookingDetails />
 					</div>
 					<div className={styles.payNowContainer}>
-						<button className={styles.payNow}>Pay now</button>
+						<button
+							className={styles.payNow}
+							onClick={() => {
+								console.log('button pressed')
+							}}
+						>
+							Pay now
+						</button>
 					</div>
 				</section>
 			</main>

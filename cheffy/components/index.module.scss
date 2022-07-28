@@ -20,6 +20,15 @@
   border-radius: 20px;
   width: max-content;
   cursor: pointer;
+  transition: all 0.2s ease-out;
+
+  &.selected {
+    border: 1px solid #7c72e8;
+    background-color: #d9d7f7;
+    .title {
+      color: #7c72e8;
+    }
+  }
 
   .title {
     font-size: 16px;

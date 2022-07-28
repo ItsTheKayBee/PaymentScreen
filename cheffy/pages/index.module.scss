@@ -1,0 +1,38 @@
+.container {
+  font-family: "Montserrat", "Arial";
+  width: 100%;
+  height: 100vh;
+  .main {
+    padding: 48px 10%;
+    .section {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-top: 100px;
+      .details {
+        display: flex;
+        gap: 54px;
+      }
+
+      .payNowContainer {
+        margin-top: 65px;
+        display: flex;
+        flex-direction: row-reverse;
+        .payNow {
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 24px;
+          color: #ffffff;
+          background: #7c72e8;
+          border-radius: 20px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 12px 32px;
+          border: none;
+        }
+      }
+    }
+  }
+}

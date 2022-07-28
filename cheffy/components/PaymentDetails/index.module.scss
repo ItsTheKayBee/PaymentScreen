@@ -1,0 +1,61 @@
+.payment {
+  flex: 1;
+  .heading {
+    margin-bottom: 32px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  %card {
+    border: 1px solid #484848;
+    border-radius: 10px;
+    padding: 32px;
+  }
+
+  .radioSection {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 22px;
+
+    .title {
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 24px;
+      color: #484848;
+    }
+  }
+
+  .cards {
+    @extend %card;
+    margin-bottom: 18px;
+
+    .expiryCvv {
+      display: flex;
+      gap: 54px;
+      width: 100%;
+      margin-top: 20px;
+    }
+
+    .input {
+      border: 1px solid #b8b7b7;
+      border-radius: 20px;
+      padding: 10px 32px;
+      width: 100%;
+
+      &:focus {
+        outline-color: #7c72e8;
+      }
+    }
+  }
+
+  .digital {
+    @extend %card;
+    .chipContainer {
+      display: flex;
+      justify-content: space-between;
+      gap: 24px;
+    }
+  }
+}

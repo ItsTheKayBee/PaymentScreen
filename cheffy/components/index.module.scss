@@ -1,0 +1,28 @@
+.nav {
+  display: flex;
+
+  .link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    text-decoration: none;
+    padding-left: 16px;
+  }
+}
+
+.chip {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 6px 16px;
+  border: 1px solid #b8b7b7;
+  border-radius: 20px;
+  width: max-content;
+  cursor: pointer;
+
+  .title {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
